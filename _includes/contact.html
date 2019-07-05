@@ -5,10 +5,13 @@
             <h2>Contact</h2>
             <!-- <p>Dolor reprehenderit repellendus, optio labore odio at tempore debitis nisi. Quasi debitis tenetur eaque molestias non porro odio sapiente.</p> -->
             <ul class="list-inline banner-social-buttons">
-								<a href="mailto:{{ site.email }}" class="btn btn-default btn-lg"><i class="fa fa-envelope-o fa-fw"></i> <span class="network-name">E-Mail</span></a>
+                <a href="mailto:{{ site.email }}" class="btn btn-default btn-lg"><i class="fa fa-envelope-o fa-fw"></i>
+                    <span class="network-name">E-Mail</span></a>
                 {% for network in site.social %}
                 <li>
-                    <a href="{{ network.url }} " target="_blank" class="btn btn-default btn-lg"><i class="fa fa-{{ network.title }} fa-fw"></i> <span class="network-name">{{ network.title }}</span></a>
+                    <a href="{{ network.url }} " target="_blank" class="btn btn-default btn-lg"><i
+                            class="fa fa-{{ network.title }} fa-fw"></i> <span
+                            class="network-name">{{ network.title }}</span></a>
                 </li>
                 {% endfor %}
             </ul>

@@ -1,10 +1,10 @@
 # Site settings
-title: Welcome - Ryan Huang
+title: Ryan Huang - Software Developer
 email: rphuang@ucdavis.edu
 url: https://rphuang.github.io
-subtitle: "Welcome"
+subtitle: "I'm Ryan."
 # description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-description: "Click here"
+description: "a <u>dev</u>eloper."
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
