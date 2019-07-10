@@ -5,10 +5,29 @@
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
                     <h1 class="brand-heading">{{ site.subtitle }}</h1>
-                    <p class="intro-text">{{ site.description }}<br>
-                        <a href="#about" class="btn btn-circle page-scroll">
-                            <i class="fa fa-angle-double-down animated"></i>
-                        </a>
+                    <p class="intro-text">{{ site.description }}</p>
+
+                </div>
+                <div class="col-lg-12 col-md-12">
+                    <ul class="list-inline banner-social-buttons">
+                        <li>
+                        <a href="mailto:{{ site.email }}" class="btn btn-default btn-lg"><i
+                                class="fa fa-envelope-o fa-fw"></i>
+                            <span class="network-name">E-Mail</span></a>
+                        </li>
+                        {% for network in site.social %}
+                        <li>
+                            <a href="{{ network.url }} " target="_blank" class="btn btn-default btn-lg"><i
+                                    class="fa fa-{{ network.title }} fa-fw"></i> <span
+                                    class="network-name">{{ network.title }}</span></a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div class="col-lg-12 col-md-12">
+                    <a href="#projects" class="btn btn-circle page-scroll">
+                        <i class="fa fa-angle-double-down animated"></i>
+                    </a>
                 </div>
             </div>
         </div>

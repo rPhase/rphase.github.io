@@ -4,10 +4,12 @@
     <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
     {% include nav.html %}
     {% include header.html %}
-    {% include about.html %}
-		{% include skills.html %}
-		{% include projects.html %}
+    {%comment%}
     {% include contact.html %}
+    {% include about.html %}
+    {% include skills.html %}
+    {%endcomment%}
+		{% include projects.html %}
     {% include footer.html %}
     {% include js.html %}
     </body>
