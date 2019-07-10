@@ -32,7 +32,7 @@ h4,
 h5,
 h6 {
     margin: 0 0 35px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
@@ -161,7 +161,9 @@ a:focus {
 }
 
 .intro .intro-body .brand-heading {
-    font-size: 40px;
+    font-size: 5.62rem;
+	margin: 50px auto 0 auto;
+	font-family: 'Sacramento', cursive;
 }
 
 .intro .intro-body .intro-text {
